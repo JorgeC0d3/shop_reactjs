@@ -48,7 +48,7 @@ function Shop() {
         <div className='container mt-5'>
 
             <select className='form-control select-categories' onChange={(e) => handleSelect(e.target.value)} >
-                <option value="all">All</option>
+                <option value="all">All products</option>
                 {
                     categories.map((category) => {
                         return (
